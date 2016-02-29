@@ -12,12 +12,13 @@
 #define TRUE        1
 #define FALSE       0
 
-/* a seat's id should say who sold it */
+/* a seat for the seating chart */
 typedef struct seat
 {
 	char *id;
 	int taken;
 } seat;
+
 
 typedef struct Queue
 {
@@ -28,12 +29,6 @@ typedef struct Queue
         int *elements;
 }Queue;
 
-Queue * createQueue(int maxElements);
-void Dequeue(Queue *Q);
-int RemoveFront(Queue *Q);
-void Enqueue(Queue *Q,int element);
-int isEmpty (Queue *Q);
-
 /* the seats are critical, so a thread needs the lock to read/write */
 seat seats[100];
 pthread_mutex_t seat_lock;
@@ -43,29 +38,44 @@ int sold_out = FALSE;
 FILE *time_stamps;
 FILE *table;
 int rejected[10] = {0};
+int sold [10] = {0};
 int vendors_are_done = 0;
 
+/* Functions for use with the Queue data structure*/
+Queue * createQueue(int maxElements);
+void Dequeue(Queue *Q);
+int RemoveFront(Queue *Q);
+void Enqueue(Queue *Q,int element);
+int isEmpty (Queue *Q);
 void init_queue (int N);
+
+/* Functions for use with the seating chart*/
 void init_seats ();
 void show_seats ();
 int is_empty (seat s);
 int find_empty_seat(char letter);
 void take_spot(int i, char *letter, int cusnum);
 int random_num(int low, int high);
+void add_to_sold_list (char *letter);
+
+/* Low price vendor functions for L0 L1 L2 L3 L4 L5*/
 void *low_price_seller0(void *arg);
 void *low_price_seller1(void *arg);
 void *low_price_seller2(void *arg);
 void *low_price_seller3(void *arg);
 void *low_price_seller4(void *arg);
 void *low_price_seller5(void *arg);
+
+/* Medium price vendor functions for M0 M1 M3*/
 void *medium_price_seller0(void *arg);
 void *medium_price_seller1(void *arg);
 void *medium_price_seller2(void *arg);
+
+/* High price vendor functions*/
 void *high_price_seller(void *arg);
+
+/* Customer thread (one thread for adding customers to queue)*/
 void *queue_thread(void *arg);
-
-
-
 
 /* main thread */
 int main(int argc, char **argv)
@@ -242,7 +252,7 @@ int find_empty_seat(char letter)
 	}
 	else if (letter == 'M') {
 		rownum = m_seat_finder [m_index++];
-		for (seatnum = rownum; seatnum < rownum + 10 ; --seatnum) {
+		for (seatnum = rownum; seatnum < rownum + 10 ; ++seatnum) {
 			seat s = seats[seatnum];
 			if (is_empty(s)) return seatnum;
 			if (seatnum == rownum + 9 && m_index < 10) {
@@ -275,11 +285,25 @@ void take_spot(int i, char *letter, int cusnum)
 			sprintf(string, "%s%i", letter, cusnum);
 		}
 		s->id = string;
+		add_to_sold_list (letter);
 	}
 	show_seats();
 	pthread_mutex_unlock(&seat_lock);
 }
 
+/* adds a point to each vendor for each ticket sold to a customer*/
+void add_to_sold_list (char *letter) {
+	if (strcmp(letter,"H0") == 0) {sold[0]++;}
+	else if (strcmp(letter,"M0") == 0) {sold[1]++;}
+	if (strcmp(letter,"M1") == 0) {sold[2]++;}
+	else if (strcmp(letter,"M2") == 0) {sold[3]++;}
+	else if (strcmp(letter,"L0") == 0) {sold[4]++;}
+	else if (strcmp(letter,"L1") == 0) {sold[5]++;}
+	else if (strcmp(letter,"L2") == 0) {sold[6]++;}
+	else if (strcmp(letter,"L3") == 0) {sold[7]++;}
+	else if (strcmp(letter,"L4") == 0) {sold[8]++;}
+	else if (strcmp(letter,"L5") == 0) {sold[9]++;}
+}
 /* generate a random number between low and high (inclusive) */
 int random_num(int low, int high)
 {
@@ -1031,7 +1055,18 @@ void *queue_thread(void *arg) {
 			left = all_vendors[k]->size;
 			rejected[k] += left;
 		}
-		fprintf(time_stamps, "Rejected customers\n"
+		fprintf(time_stamps, "\nRejected customers\n"
+				"H0: %i\n"
+				"M0: %i\n"
+				"M1: %i\n"
+				"M2: %i\n"
+				"L0: %i\n"
+				"L1: %i\n"
+				"L2: %i\n"
+				"L3: %i\n"
+				"L4: %i\n"
+				"L5: %i\n"
+				"\nCustomers successfully served\n"
 				"H0: %i\n"
 				"M0: %i\n"
 				"M1: %i\n"
@@ -1045,7 +1080,9 @@ void *queue_thread(void *arg) {
 				rejected[0], rejected[1], rejected[2],
 				rejected[3], rejected[4], rejected[5],
 				rejected[6], rejected[7], rejected[8],
-				rejected[9]);
+				rejected[9], sold[0], sold[1], sold[2],
+				sold[3], sold[4], sold[5], sold[6],
+				sold[7], sold[8], sold[9]);
 		pthread_exit(NULL);
 
 	return 0;
