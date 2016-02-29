@@ -257,7 +257,7 @@ int find_empty_seat(char letter)
 			if (is_empty(s)) return seatnum;
 			if (seatnum == rownum + 9 && m_index < 10) {
 				rownum = m_seat_finder [m_index++];
-				seatnum = rownum;
+				seatnum = rownum - 1;
 			}
 		}
 	}
