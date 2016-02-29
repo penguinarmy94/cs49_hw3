@@ -200,6 +200,10 @@ void *low_seller_thread(void *arg)
 /* main thread */
 int main(int argc, char **argv)
 {
+	if (argc < 2) {
+		fprintf(stderr, "need to supply a command-line argument\n");
+		exit(1);
+	}
 	/* program initialization */
 	init_seats();
 	sscanf(argv[1], "%d", &n);
