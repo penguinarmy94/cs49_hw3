@@ -1,0 +1,327 @@
+[0:00] Customer 0 entered H0's line
+[0:00] Customer 0 entered L0's line
+[0:00] Customer 0 entered L1's line
+[0:00] Customer 0 entered L2's line
+[0:00] L0 is selling to customer 0
+[0:00] L1 is selling to customer 0
+[0:00] L2 is selling to customer 0
+[0:00] H0 is selling to customer 0
+[0:01] Customer 0 entered M0's line
+[0:01] Customer 1 entered L0's line
+[0:01] Customer 1 entered L1's line
+[0:01] Customer 0 entered L3's line
+[0:01] Customer 0 entered L4's line
+[0:01] L3 is selling to customer 0
+[0:01] M0 is selling to customer 0
+[0:01] L4 is selling to customer 0
+[0:02] Customer 0 completed their purchase at H0
+[0:03] Customer 1 entered M0's line
+[0:03] Customer 0 entered M1's line
+[0:03] Customer 0 entered M2's line
+[0:03] Customer 2 entered L0's line
+[0:03] Customer 2 entered L1's line
+[0:03] M1 is selling to customer 0
+[0:03] m2 is selling to customer 0
+[0:04] Customer 1 entered H0's line
+[0:04] Customer 2 entered M0's line
+[0:04] Customer 1 entered M2's line
+[0:04] Customer 3 entered L0's line
+[0:04] Customer 1 entered L4's line
+[0:04] Customer 0 entered L5's line
+[0:04] H0 is selling to customer 1
+[0:04] L5 is selling to customer 0
+[0:05] Customer 1 completed their purchase at H0
+[0:05] Customer 0 completed their purchase at M0
+[0:05] M0 is selling to customer 1
+[0:06] Customer 2 entered H0's line
+[0:06] Customer 3 entered M0's line
+[0:06] Customer 4 entered L0's line
+[0:06] Customer 1 entered L2's line
+[0:06] Customer 2 entered L4's line
+[0:06] H0 is selling to customer 2
+[0:06] Customer 1 entered L5's line
+[0:07] Customer 0 completed their purchase at L0
+[0:07] L0 is selling to customer 1
+[0:07] Customer 0 completed their purchase at L2
+[0:07] L2 is selling to customer 1
+[0:07] Customer 0 completed their purchase at L1
+[0:07] L1 is selling to customer 1
+[0:07] Customer 2 completed their purchase at H0
+[0:07] Customer 4 entered M0's line
+[0:07] Customer 5 entered L0's line
+[0:07] Customer 1 entered L3's line
+[0:07] Customer 3 entered L4's line
+[0:07] Customer 2 entered L5's line
+[0:07] Customer 0 completed their purchase at M2
+[0:07] m2 is selling to customer 1
+[0:07] Customer 0 completed their purchase at M1
+[0:08] Customer 3 entered H0's line
+[0:08] Customer 6 entered L0's line
+[0:08] Customer 3 entered L1's line
+[0:08] Customer 2 entered L2's line
+[0:08] H0 is selling to customer 3
+[0:08] Customer 2 entered L3's line
+[0:08] Customer 4 entered L4's line
+[0:08] Customer 3 entered L5's line
+[0:08] Customer 1 completed their purchase at M0
+[0:08] M0 is selling to customer 2
+[0:08] Customer 0 completed their purchase at L3
+[0:08] L3 is selling to customer 1
+[0:08] Customer 0 completed their purchase at L4
+[0:08] L4 is selling to customer 1
+[0:09] Customer 3 completed their purchase at H0
+[0:09] Customer 1 entered M1's line
+[0:09] Customer 2 entered M2's line
+[0:09] Customer 7 entered L0's line
+[0:09] Customer 3 entered L2's line
+[0:09] Customer 4 entered L5's line
+[0:09] M1 is selling to customer 1
+[0:10] Customer 1 completed their purchase at M2
+[0:10] M2 is selling to customer 2
+[0:11] Customer 1 completed their purchase at L0
+[0:11] L0 is selling to customer 2
+[0:11] Customer 1 completed their purchase at L1
+[0:11] L1 is selling to customer 2
+[0:11] Customer 1 completed their purchase at L2
+[0:11] L2 is selling to customer 2
+[0:11] Customer 2 completed their purchase at M0
+[0:11] M0 is selling to customer 3
+[0:11] Customer 4 entered H0's line
+[0:11] Customer 5 entered H0's line
+[0:11] Customer 5 entered M0's line
+[0:11] Customer 8 entered L0's line
+[0:11] Customer 4 entered L1's line
+[0:11] Customer 3 entered L3's line
+[0:11] Customer 5 entered L5's line
+[0:11] H0 is selling to customer 4
+[0:11] Customer 0 completed their purchase at L5
+[0:11] L5 is selling to customer 1
+[0:12] Customer 4 completed their purchase at H0
+[0:12] H0 is selling to customer 5
+[0:12] Customer 1 completed their purchase at L4
+[0:12] L4 is selling to customer 2
+[0:12] Customer 1 completed their purchase at L3
+[0:12] L3 is selling to customer 2
+[0:12] Customer 1 completed their purchase at M1
+[0:13] Customer 2 completed their purchase at M2
+[0:13] Customer 3 completed their purchase at M0
+[0:13] M0 is selling to customer 4
+[0:14] Customer 6 entered H0's line
+[0:14] Customer 7 entered H0's line
+[0:14] Customer 6 entered M0's line
+[0:14] Customer 2 entered M1's line
+[0:14] Customer 9 entered L0's line
+[0:14] Customer 4 entered L2's line
+[0:14] Customer 5 entered L4's line
+[0:14] M1 is selling to customer 2
+[0:14] Customer 5 completed their purchase at H0
+[0:14] H0 is selling to customer 6
+[0:15] Customer 2 completed their purchase at L0
+[0:15] L0 is selling to customer 3
+[0:15] Customer 2 completed their purchase at L1
+[0:15] L1 is selling to customer 3
+[0:15] Customer 2 completed their purchase at L2
+[0:15] L2 is selling to customer 3
+[0:15] Customer 1 completed their purchase at L5
+[0:15] L5 is selling to customer 2
+[0:16] Customer 8 entered H0's line
+[0:16] Customer 9 entered H0's line
+[0:16] Customer 7 entered M0's line
+[0:16] Customer 3 entered M2's line
+[0:16] Customer 10 entered L0's line
+[0:16] Customer 5 entered L1's line
+[0:16] Customer 6 entered L4's line
+[0:16] Customer 6 completed their purchase at H0
+[0:16] H0 is selling to customer 7
+[0:16] M2 is selling to customer 3
+[0:16] Customer 2 completed their purchase at L4
+[0:16] L4 is selling to customer 3
+[0:16] Customer 2 completed their purchase at L3
+[0:16] L3 is selling to customer 3
+[0:17] Customer 4 completed their purchase at M0
+[0:17] M0 is selling to customer 5
+[0:17] Customer 2 completed their purchase at M1
+[0:17] Customer 10 entered H0's line
+[0:17] Customer 8 entered M0's line
+[0:17] Customer 4 entered M2's line
+[0:17] Customer 11 entered L0's line
+[0:17] Customer 5 entered L2's line
+[0:17] Customer 7 entered L4's line
+[0:17] Customer 6 entered L5's line
+[0:18] Customer 7 completed their purchase at H0
+[0:18] H0 is selling to customer 8
+[0:18] Customer 3 completed their purchase at M2
+[0:18] M2 is selling to customer 4
+[0:19] Customer 8 completed their purchase at H0
+[0:19] H0 is selling to customer 9
+[0:19] Customer 2 completed their purchase at L5
+[0:19] L5 is selling to customer 3
+[0:19] Customer 11 entered H0's line
+[0:19] Customer 9 entered M0's line
+[0:19] Customer 12 entered L0's line
+[0:19] Customer 6 entered L1's line
+[0:19] Customer 4 entered L3's line
+[0:19] Customer 8 entered L4's line
+[0:20] Customer 9 completed their purchase at H0
+[0:20] H0 is selling to customer 10
+[0:20] Customer 12 entered H0's line
+[0:20] Customer 13 entered H0's line
+[0:20] Customer 3 entered M1's line
+[0:20] Customer 5 entered M2's line
+[0:20] Customer 13 entered L0's line
+[0:20] Customer 7 entered L1's line
+[0:20] Customer 5 entered L3's line
+[0:20] M1 is selling to customer 3
+[0:21] Customer 3 completed their purchase at L0
+[0:21] L0 is selling to customer 4
+[0:21] Customer 3 completed their purchase at L2
+[0:21] L2 is selling to customer 4
+[0:21] Customer 3 completed their purchase at L1
+[0:21] L1 is selling to customer 4
+[0:21] Customer 5 completed their purchase at M0
+[0:21] M0 is selling to customer 6
+[0:21] Customer 10 completed their purchase at H0
+[0:21] H0 is selling to customer 11
+[0:22] Customer 3 completed their purchase at L3
+[0:22] L3 is selling to customer 4
+[0:22] Customer 4 completed their purchase at M2
+[0:22] M2 is selling to customer 5
+[0:22] Customer 14 entered H0's line
+[0:22] Customer 10 entered M0's line
+[0:22] Customer 4 entered M1's line
+[0:22] Customer 14 entered L0's line
+[0:22] Customer 3 completed their purchase at L4
+[0:22] L4 is selling to customer 4
+[0:22] Customer 3 completed their purchase at M1
+[0:22] M1 is selling to customer 4
+[0:23] Customer 6 completed their purchase at M0
+[0:23] M0 is selling to customer 7
+[0:23] Customer 11 completed their purchase at H0
+[0:23] H0 is selling to customer 12
+[0:24] Customer 12 completed their purchase at H0
+[0:24] H0 is selling to customer 13
+[0:24] Customer 11 entered M0's line
+[0:24] Customer 5 entered M1's line
+[0:24] Customer 8 entered L1's line
+[0:24] Customer 6 entered L2's line
+[0:24] Customer 7 entered L5's line
+[0:25] Customer 4 completed their purchase at L0
+[0:25] L0 is selling to customer 5
+[0:25] Customer 4 completed their purchase at L1
+[0:25] L1 is selling to customer 5
+[0:25] Customer 4 completed their purchase at L2
+[0:25] L2 is selling to customer 5
+[0:25] Customer 3 completed their purchase at L5
+[0:25] L5 is selling to customer 4
+[0:25] Customer 13 completed their purchase at H0
+[0:25] H0 is selling to customer 14
+[0:26] Customer 4 completed their purchase at L3
+[0:26] L3 is selling to customer 5
+[0:26] Customer 5 completed their purchase at M2
+[0:26] Customer 4 completed their purchase at L4
+[0:26] L4 is selling to customer 5
+[0:26] Customer 4 completed their purchase at M1
+[0:26] M1 is selling to customer 5
+[0:27] Customer 14 completed their purchase at H0
+[0:27] Customer 7 completed their purchase at M0
+[0:27] M0 is selling to customer 8
+[0:27] Customer 6 entered M2's line
+[0:27] Customer 9 entered L1's line
+[0:27] Customer 7 entered L2's line
+[0:27] Customer 8 entered L5's line
+[0:27] M2 is selling to customer 6
+[0:29] Customer 4 completed their purchase at L5
+[0:29] L5 is selling to customer 5
+[0:29] Customer 6 completed their purchase at M2
+[0:30] Customer 5 completed their purchase at L0
+[0:30] L0 is selling to customer 6
+[0:30] Customer 5 completed their purchase at L2
+[0:30] L2 is selling to customer 6
+[0:30] Customer 5 completed their purchase at L1
+[0:30] L1 is selling to customer 6
+[0:30] Customer 12 entered M0's line
+[0:30] Customer 8 entered L2's line
+[0:30] Customer 6 entered L3's line
+[0:30] Customer 5 completed their purchase at M1
+[0:31] Customer 8 completed their purchase at M0
+[0:31] M0 is selling to customer 9
+[0:31] Customer 5 completed their purchase at L3
+[0:31] L3 is selling to customer 6
+[0:31] Customer 5 completed their purchase at L4
+[0:31] L4 is selling to customer 6
+[0:32] Customer 6 entered M1's line
+[0:32] Customer 9 entered L4's line
+[0:32] M1 is selling to customer 6
+[0:33] Customer 9 completed their purchase at M0
+[0:33] M0 is selling to customer 10
+[0:34] Customer 5 completed their purchase at L5
+[0:34] L5 is selling to customer 6
+[0:34] Customer 9 entered L2's line
+[0:34] Customer 7 entered L3's line
+[0:34] Customer 10 entered L4's line
+[0:34] Customer 6 completed their purchase at M1
+[0:35] Customer 10 completed their purchase at M0
+[0:35] M0 is selling to customer 11
+[0:35] Customer 7 entered M1's line
+[0:35] Customer 8 entered L3's line
+[0:35] Customer 11 entered L4's line
+[0:35] M1 is selling to customer 7
+[0:35] M1 is sold out, customer 7 leaves
+[0:37] Customer 6 completed their purchase at L0
+[0:37] L0 is selling to customer 7
+[0:37] Customer 6 completed their purchase at L2
+[0:37] L2 is selling to customer 7
+[0:37] Customer 6 completed their purchase at L1
+[0:37] L1 is selling to customer 7
+[0:37] Customer 11 completed their purchase at M0
+[0:37] M0 is selling to customer 12
+[0:37] M0 is sold out, customer 12 leaves
+[0:38] Customer 6 completed their purchase at L3
+[0:38] L3 is selling to customer 7
+[0:38] Customer 6 completed their purchase at L4
+[0:38] L4 is selling to customer 7
+[0:41] Customer 6 completed their purchase at L5
+[0:41] L5 is selling to customer 7
+[0:44] Customer 7 completed their purchase at L0
+[0:44] L0 is selling to customer 8
+[0:44] Customer 7 completed their purchase at L2
+[0:44] L2 is selling to customer 8
+[0:44] Customer 7 completed their purchase at L1
+[0:44] L1 is selling to customer 8
+[0:45] Customer 7 completed their purchase at L3
+[0:45] L3 is selling to customer 8
+[0:45] Customer 7 completed their purchase at L4
+[0:45] L4 is selling to customer 8
+[0:48] Customer 7 completed their purchase at L5
+[0:48] L5 is selling to customer 8
+[0:50] Customer 8 completed their purchase at L0
+[0:50] L0 is selling to customer 9
+[0:50] Customer 8 completed their purchase at L2
+[0:50] L2 is selling to customer 9
+[0:50] Customer 8 completed their purchase at L1
+[0:50] L1 is selling to customer 9
+[0:51] Customer 8 completed their purchase at L3
+[0:51] Customer 8 completed their purchase at L4
+[0:51] L4 is selling to customer 9
+[0:54] Customer 9 completed their purchase at L0
+[0:54] L0 is selling to customer 10
+[0:54] Customer 9 completed their purchase at L2
+[0:54] Customer 9 completed their purchase at L1
+[0:54] Customer 8 completed their purchase at L5
+[0:55] Customer 9 completed their purchase at L4
+[0:55] L4 is selling to customer 10
+[0:55] L4 is sold out, customer 10 leaves
+[0:58] Customer 10 completed their purchase at L0
+[0:58] L0 is selling to customer 11
+[0:58] L0 is sold out, customer 11 leaves
+Rejected customers
+H0: 0
+M0: 1
+M1: 1
+M2: 0
+L0: 4
+L1: 0
+L2: 0
+L3: 0
+L4: 2
+L5: 0
